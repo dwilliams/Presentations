@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+body {
+    font-size: 150%;
+    text-align: center;
+    font-family: Libre Baskerville;
+}
+
+div.step {
+    width: 1080px;
+    height: 608px;
+}
+
+p {
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    text-align: left;
+}
+
+#title-slide p {
+    text-align: center;
+}
+
+#types-of-iot li {
+    font-size: 200%;
+}
+
+pre {
+    text-align: left;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    /* margin-bottom: 0.3em; */
+    margin-top: 0.3em;
+    border-bottom: 1px solid black;
+}
+
+tt {
+    font-size: 125;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    font-family: serif;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    padding-left: 0.3em;
+    line-height: 1.8em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    top: 95%;
+    font-size: 50%;
+}
+
+.footer p {
+    text-align: center;
+}
