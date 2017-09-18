@@ -30,6 +30,10 @@ p {
     line-height: 1.0em;
 }
 
+#questions p {
+    text-align: center;
+}
+
 pre {
     text-align: left;
 }

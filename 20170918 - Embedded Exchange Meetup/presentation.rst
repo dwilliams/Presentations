@@ -278,9 +278,9 @@ It's All About Solving Problems
 
 * Locking up a bicycle: SOLVED (Roman Era, 500 BC – 300 AD)
 
-* Turning lights on and off: SOLVED
+* Turning lights on and off: SOLVED (1884 or 1917)
 
-* Adjusting the temperature: SOLVED
+* Adjusting the temperature: SOLVED (1620 or 1830)
 
 .. note::
 
@@ -288,7 +288,11 @@ It's All About Solving Problems
 
   * IoT light switches added the ability for chinese script kiddies to turn your lights on and off too.
 
+  * 1884 - Quick-Action, 1917 - Toggle
+
   * Thermostats were one of the earliest forms of automation, but didn't require the internet to do the job.
+
+  * 1620 - mercury thermometer with contacts, 1830 - bimetalic strip
 
 ----
 
@@ -337,6 +341,11 @@ Data is Useless, We want Information
 
   * End users don't care about the process used to extract the recommations (which is the information) as long as it's
     accurate, efficient (e.g. doesn't require an entire server room to be maintained), and matches their desires.
+
+----
+
+.. image:: https://omareoramo.wikispaces.com/file/view/Climate_Graph.gif
+    :width: 800px
 
 ----
 
@@ -392,6 +401,8 @@ Local Controllers are Essential
   * No one wants a light that takes 30 seconds to turn on, or an HVAC system that stops working when the internet
     connection fails.
 
+  * This is a primary use of embedded systems. (and the sensors)
+
 ----
 
 :id: where-are-we-going
@@ -431,5 +442,9 @@ Conclusions
 
 ----
 
+:id: questions
+
 Questions?
 ==========
+
+Presentation available at: https://github.com/dwilliams/Presentations
