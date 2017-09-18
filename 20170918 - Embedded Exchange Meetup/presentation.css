@@ -41,6 +41,10 @@ h1, h2, h3, h4 {
     border-bottom: 1px solid black;
 }
 
+#title-slide h1, h2, h3, h4 {
+    border-bottom: none;
+}
+
 tt {
     font-size: 125;
 }

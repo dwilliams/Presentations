@@ -50,16 +50,6 @@ Outline:
 
     * Insert picture of Data and Lore
 
-  * Sensor through network to gateway to cloud to user of data (not using this)
-
-    * Humans
-
-    * M2M
-
-    * Proprietary vs Open Sources Networks
-
-    * Local vs WAN
-
   * Local analysis and response is essential
 
     * Internet round trip make cloud take too long
@@ -70,15 +60,17 @@ Outline:
 
     * WAN connections OK for supplimental sensors
 
-  * Conclusions
+* Where are we going with all of this?
 
-    * IoT isn't going away.  It's just part of the internet.
+* Conclusions
 
-    * Information synthesis is critical.
+  * IoT isn't going away.  It's just part of the internet.
 
-    * Interactions with other data sources is critical.
+  * Information synthesis is critical.
 
-    * Bringing all of it together to for a system is the key.
+  * Interactions with other data sources is critical.
+
+  * Bringing all of it together to for a system is the key.
 
 * Questions?
 
@@ -94,10 +86,16 @@ Outline:
 
 :id: title-slide
 
-The Future of Embedded Systems and IoT in Smart Communities and Buildings
-=========================================================================
+The (not so distant) Future of
+==============================
 
-by some guy that is working on an *IoT Project* or two
+Embedded Systems and IoT in
+===========================
+
+Smart Communities and Buildings
+===============================
+
+by some guy working on an *IoT Project* or two
 
 .. note::
 
@@ -278,7 +276,7 @@ Commercial IoT
 It's All About Solving Problems
 ===============================
 
-* Locking up a bicycle: SOLVED
+* Locking up a bicycle: SOLVED (Roman Era, 500 BC – 300 AD)
 
 * Turning lights on and off: SOLVED
 
@@ -396,6 +394,26 @@ Local Controllers are Essential
 
 ----
 
+:id: where-are-we-going
+
+Where are we going with all of this?
+====================================
+
+* The starship Enterprise (minus the warp drive)
+
+.. image:: https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3NzY1NzE0N15BMl5BanBnXkFtZTgwMjM0ODA1NTE@._V1_SX1777_CR0,0,1777,999_AL_.jpg
+    :width: 400px
+
+* Smart buildings will be able to reduce their operating costs.
+
+* Smart buildings will be able to adjust their environments to occupancy and usage demands.
+
+* Smart buildings will be able to call for help with maintenance and security issues.
+
+* All of these will happen without human intervention.
+
+----
+
 :id: conclusions
 
 Conclusions
@@ -408,6 +426,8 @@ Conclusions
 * Interactions with other data & information sources is critical.
 
 * Bringing it all together into a unified system is the key.
+
+* All of it comes together to all smart building and smart communities.
 
 ----
 
