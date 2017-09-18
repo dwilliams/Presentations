@@ -50,7 +50,7 @@ Outline:
 
     * Insert picture of Data and Lore
 
-  * Sensor through network to gateway to cloud to user of data
+  * Sensor through network to gateway to cloud to user of data (not using this)
 
     * Humans
 
@@ -225,6 +225,189 @@ Industial IoT
 .. note::
 
   * ...to this before the "IoT revolution".
+
+----
+
+:id: commercial-iot
+
+Commercial IoT
+==============
+
+* Usually focused on Building Automation
+
+  * High Volume Air Conditioning (HVAC)
+
+    * Maintence Monitoring
+
+    * Occupancy
+
+  * Lighting
+
+    * Maintence Monitoring
+
+    * Occupancy
+
+  * Utility Usage
+
+    * Electricity
+
+    * Water
+
+    * Natural Gas / Steam
+
+  * Security
+
+    * Access Control
+
+    * Property Monitoring
+
+  * Etc.
+
+.. note::
+
+  * I'm just touching on a few biggies here, there's tons more.
+
+  * This is where the magic is happening, lots of figuring out how to do it.
+
+  * These system aren't integrated yet, but they should be.
+
+----
+
+:id: problem-solving-1
+
+It's All About Solving Problems
+===============================
+
+* Locking up a bicycle: SOLVED
+
+* Turning lights on and off: SOLVED
+
+* Adjusting the temperature: SOLVED
+
+.. note::
+
+  * The IoT bike lock did nothing but add complexity to an already solved problem.
+
+  * IoT light switches added the ability for chinese script kiddies to turn your lights on and off too.
+
+  * Thermostats were one of the earliest forms of automation, but didn't require the internet to do the job.
+
+----
+
+:id: problem-solving-2
+
+It's All About Solving Problems
+===============================
+
+The problems that building operators want to solve:
+
+* Reduce recurring operational costs
+
+* Monitor their buildings for maintenance and security issues
+
+* Provide better comfort and convenience to their tenants
+
+.. note::
+
+  * Being proactive with maintenance and security reduces one-time repair costs.
+
+  * Better comfort and convenience means more money for rent and more reliable renters.
+
+----
+
+:id: data-is-useless
+
+Data is Useless, We want Information
+====================================
+
+* Data is measured, collected and reported, and analyzed, whereupon it can be visualized using graphs, images or other
+  analysis tools.  *wikipedia*
+
+* Information is that which informs. In other words, it is the answer to a question of some kind. It is thus related to
+  data and knowledge, as data represents values attributed to parameters, and knowledge signifies understanding of real
+  things or abstract concepts.  *wikipedia*
+
+* Sensor data is hard to analyze.
+
+* People want recommendations on which settings to adjust and how much to adjust them.
+
+.. note::
+
+  * This is an incredibly important concept and most engineers (the people making the IoT bits) miss it.
+
+  * Few people in this world can look and data and understand what's going on.  Fewer can do proper data analysis.
+
+  * End users don't care about the process used to extract the recommations (which is the information) as long as it's
+    accurate, efficient (e.g. doesn't require an entire server room to be maintained), and matches their desires.
+
+----
+
+:id: integrations-are-better
+
+Integrations are Better
+=======================
+
+* Ingest data from multiple sensors
+
+* Ingest information from multiple sources
+
+* Bring different datas together to synthesize more insightful information
+
+.. image:: https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0MjgwMzQ4OV5BMl5BanBnXkFtZTgwODQ4MDAwMjE@._V1_SX1777_CR0,0,1777,999_AL_.jpg
+    :width: 400px
+
+* Present the information in a unified method.
+
+.. note::
+
+  * The verb ingest is used on purpose.
+
+  * Don't forget the marketing wank joke.
+
+  * The last point is important.  People don't want to access 17 different systems, they want everything on one place.
+
+    * Smartphones are the perfect example of this.
+
+----
+
+:id: local-controllers
+
+Local Controllers are Essential
+===============================
+
+* Internet round-trips take too long.
+
+* Relying on internet & WAN technologies adds unneeded dependencies
+
+* Who's going to support the servers when the supplier goes away?
+
+* Cloud systems should be for long-term data and log storage, supplimental analysis horsepower
+
+* Critical decisions must stay local to the system
+
+.. note::
+
+  * We (the ones making these devices) are the suppliers.  Look at Revolv (bought by Google Nest).
+
+  * This is one of the biggest flaws in the residential market (too focused on vendor lock-in and recurring revenue)
+
+  * No one wants a light that takes 30 seconds to turn on, or an HVAC system that stops working when the internet
+    connection fails.
+
+----
+
+:id: conclusions
+
+Conclusions
+===========
+
+* IoT isn't going away and it's nothing new.  It's just part of the internet.
+
+* Information synthesis is critical.
+
+* Interactions with other data & information sources is critical.
+
+* Bringing it all together into a unified system is the key.
 
 ----
 

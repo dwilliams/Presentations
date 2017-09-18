@@ -26,6 +26,10 @@ p {
     font-size: 200%;
 }
 
+#commercial-iot li {
+    line-height: 1.0em;
+}
+
 pre {
     text-align: left;
 }
